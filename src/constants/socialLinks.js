@@ -1,16 +1,14 @@
-import React from "react"
+import React from "react";
 import {
-  AiFillGithub,
-  AiOutlineGitlab,
   FaTelegramPlane,
   FaFacebook,
   FaLinkedin,
-} from "react-icons/fa"
+} from "react-icons/fa";
 
 const data = [
   {
     id: 1,
-    icon: <AiFillGithub className="social-icon"></AiFillGithub>,
+    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
     url: "https://github.com/sne-syn",
   },
   {
@@ -20,7 +18,7 @@ const data = [
   },
   {
     id: 3,
-    icon: <AiOutlineGitlab className="social-icon"></AiOutlineGitlab>,
+    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
     url: "https://newgit.anadea.co/sss",
   },
   {
@@ -33,19 +31,19 @@ const data = [
     icon: <FaFacebook className="social-icon"></FaFacebook>,
     url: "https://www.facebook.com/snezhana.singur",
   },
-]
-const links = data.map(link => {
+];
+const links = data.map((link) => {
   return (
     <li key={link.id}>
       <a href={link.url} className="social-link">
         {link.icon}
       </a>
     </li>
-  )
-})
+  );
+});
 
 export default ({ styleClass }) => {
   return (
     <ul className={`social-links ${styleClass ? styleClass : ""}`}>{links}</ul>
-  )
-}
+  );
+};
