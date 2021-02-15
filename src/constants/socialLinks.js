@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  FaTelegramPlane,
-  FaFacebook,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaTelegramPlane, FaFacebook, FaLinkedin } from "react-icons/fa";
 
 const data = [
   {
