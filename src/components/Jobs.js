@@ -5,15 +5,16 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 import { Link } from "gatsby";
 
 const Jobs = () => {
+  const jobs = jobsInfo.sort((a,b) => b.id - a.id);
   const [value, setValue] = React.useState(0);
-  const { company, position, date, desc } = jobsInfo[value];
+  const { company, position, date, desc } = jobs[value];
 
   return (
     <section className="section jobs">
       <Title title="experience" />
       <div className="jobs-center">
         <div className="btn-container">
-          {jobsInfo.map((item, index) => {
+          {jobs.map((item, index) => {
             return (
               <button
                 onClick={() => setValue(index)}

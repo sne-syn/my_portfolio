@@ -18,11 +18,6 @@ const data = [
   },
   {
     id: 4,
-    text: "blog",
-    url: "/blog/",
-  },
-  {
-    id: 5,
     text: "contact",
     url: "/contact/",
   },
@@ -40,6 +35,9 @@ export default ({ styleClass }) => {
   return (
     <ul className={`page-links ${styleClass ? styleClass : ""}`}>
       {tempLinks}
+      <li key="5">
+        <a href={"https://dreamy-mclean-a1b84c.netlify.app"}>Blog</a>
+      </li>
     </ul>
   );
 };

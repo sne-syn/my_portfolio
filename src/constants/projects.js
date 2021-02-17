@@ -4,7 +4,8 @@ export default [
     title: "Six Cities",
     github: "https://github.com/sne-syn/543355-six-cities-5",
     url: "https://amazing-shaw-0949ff.netlify.app",
-    description: "Rental service with React.js, comments and pin-map functionality",
+    description:
+      "Rental service with React.js, comments and pin-map functionality",
     stack: [
       {
         id: 1,
@@ -43,9 +44,9 @@ export default [
   },
   {
     id: 3,
-    title: "Keksobooking",
-    url: "https://compassionate-johnson-0a70e7.netlify.app",
-    github: "https://github.com/sne-syn/543355-keksobooking-18",
+    title: "Taskmanager",
+    url: "https://github.com/sne-syn/543355-taskmanager-11",
+    github: "https://github.com/sne-syn/543355-taskmanager-11",
     description: "Rental service with map, form, etc.",
     stack: [
       {

@@ -5,6 +5,7 @@ import Services from "../components/Services";
 import Jobs from "../components/Jobs";
 import Projects from "../components/Projects";
 import Blogs from "../components/Blogs";
+import projects from "../constants/projects";
 
 export default () => {
   return (
@@ -12,7 +13,7 @@ export default () => {
       <Hero />
       <Services />
       <Jobs />
-      <Projects title="featured projects" showLink />
+      <Projects projects={projects} title="featured projects" showLink />
     </Layout>
   );
 };
