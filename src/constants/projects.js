@@ -28,7 +28,7 @@ export default [
   {
     id: 2,
     title: "Cinemaddict",
-    url: "",
+    url: "https://practical-perlman-7d8c03.netlify.app/",
     github: "https://github.com/sne-syn/543355-cinemaddict-11",
     description: "Movie collect application",
     stack: [
