@@ -7,7 +7,6 @@
         "nodes": [
           { "path": "/404/" },
           { "path": "/about/" },
-          { "path": "/blog/" },
           { "path": "/contact/" },
           { "path": "/" },
           { "path": "/projects/" },
