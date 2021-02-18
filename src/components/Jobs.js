@@ -5,7 +5,7 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 import { Link } from "gatsby";
 
 const Jobs = () => {
-  const jobs = jobsInfo.sort((a,b) => b.id - a.id);
+  const jobs = jobsInfo.sort((a, b) => b.id - a.id);
   const [value, setValue] = React.useState(0);
   const { company, position, date, desc } = jobs[value];
 
