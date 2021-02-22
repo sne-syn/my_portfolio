@@ -37,7 +37,7 @@ export default [
         title: "JavaScript",
       },
       {
-        id: 3,
+        id: 2,
         title: "HTML, CSS",
       },
     ],
@@ -54,8 +54,29 @@ export default [
         title: "JavaScript",
       },
       {
-        id: 3,
+        id: 2,
         title: "HTML, CSS",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Elearning platform",
+    url: "https://ruby-bootcamp.herokuapp.com",
+    github: "https://github.com/sne-syn/ruby-gems-bootcamp",
+    description: "Elearning platform",
+    stack: [
+      {
+        id: 1,
+        title: "JavaScript",
+      },
+      {
+        id: 2,
+        title: "HTML, CSS",
+      },
+      {
+        id: 3,
+        title: "Ruby on Rails",
       },
     ],
   },
