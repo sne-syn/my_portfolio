@@ -13,7 +13,7 @@ export default [
       },
       {
         id: 2,
-        title: "Redux",
+        title: "Redux", '
       },
       {
         id: 3,
@@ -44,14 +44,14 @@ export default [
   },
   {
     id: 3,
-    title: "Taskmanager",
-    url: "https://github.com/sne-syn/543355-taskmanager-11",
-    github: "https://github.com/sne-syn/543355-taskmanager-11",
+    title: "Keksobooking",
+    url: "https://compassionate-johnson-0a70e7.netlify.app",
+    github: "https://github.com/sne-syn/543355-keksobooking-18",
     description: "Rental service with map, form, etc.",
     stack: [
       {
         id: 1,
-        title: "JavaScript",
+        title: "JavaScript ES5",
       },
       {
         id: 2,
