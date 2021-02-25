@@ -4,7 +4,7 @@ import { SiAdobeaftereffects } from "react-icons/si";
 import { IoAccessibility } from "react-icons/io"
 
 export default [
-  { '
+  {
     id: 1,
     icon: <FaCode className="service-icon" />,
     title: "web development",
