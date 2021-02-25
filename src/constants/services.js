@@ -1,8 +1,10 @@
 import React from "react";
 import { FaCode, FaSketch, FaAndroid } from "react-icons/fa";
+import { SiAdobeaftereffects } from "react-icons/si";
+import { IoAccessibility } from "react-icons/io"
 
 export default [
-  {
+  { '
     id: 1,
     icon: <FaCode className="service-icon" />,
     title: "web development",
@@ -10,14 +12,14 @@ export default [
   },
   {
     id: 2,
-    icon: <FaSketch className="service-icon" />,
+    icon: <SiAdobeaftereffects className="service-icon" />,
     title: "web animation",
     text: `There is a great quantity of eating and drinking, making love and jilting, laughing and the contrary, smoking, cheating, fighting, dancing and fiddling; there are bullies pushing about, bucks ogling the women, knaves picking pockets, policemen on the look-out, quacks`,
   },
   {
     id: 3,
-    icon: <FaAndroid className="service-icon" />,
-    title: "google optimization",
+    icon: <IoAccessibility className="service-icon" />,
+    title: "accessibility",
     text: `Yes, this is VANITY FAIR; not a moral place certainly; nor a merry one, though very noisy. Look at the faces of the actors and buffoons when they come off from their business.`,
   },
 ];
