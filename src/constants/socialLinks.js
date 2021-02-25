@@ -1,10 +1,10 @@
 import React from "react";
-import { FaTelegramPlane, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaGitlab, FaTelegramPlane, FaFacebook, FaLinkedin } from "react-icons/fa";
 
 const data = [
   {
     id: 1,
-    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
+    icon: <FaGithub className="social-icon"></FaGithub>,
     url: "https://github.com/sne-syn",
   },
   {
@@ -14,7 +14,7 @@ const data = [
   },
   {
     id: 3,
-    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
+    icon: <FaGitlab className="social-icon"></FaGitlab>,
     url: "https://newgit.anadea.co/sss",
   },
   {
