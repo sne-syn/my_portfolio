@@ -62,8 +62,8 @@ export default [
   {
     id: 4,
     title: "Elearning platform",
-    url: "https://ruby-bootcamp.herokuapp.com",
-    github: "https://github.com/sne-syn/ruby-gems-bootcamp",
+    url: "https://ruby-training-project.herokuapp.com",
+    github: "https://github.com/sne-syn/ruby-project",
     description: "Elearning platform",
     stack: [
       {
