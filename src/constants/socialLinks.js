@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaGitlab, FaTelegramPlane, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaTelegramPlane, FaFacebook, FaLinkedin } from "react-icons/fa";
 
 const data = [
   {
@@ -14,16 +14,11 @@ const data = [
   },
   {
     id: 3,
-    icon: <FaGitlab className="social-icon"></FaGitlab>,
-    url: "https://newgit.anadea.co/sss",
-  },
-  {
-    id: 4,
     icon: <FaTelegramPlane className="social-icon"></FaTelegramPlane>,
     url: "tg://resolve?domain=Sne_Syn",
   },
   {
-    id: 5,
+    id: 4,
     icon: <FaFacebook className="social-icon"></FaFacebook>,
     url: "https://www.facebook.com/snezhana.singur",
   },

@@ -1,7 +1,7 @@
 import React from "react";
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
 import { SiAdobeaftereffects } from "react-icons/si";
-import { IoAccessibility } from "react-icons/io"
+import { GrAccessibility } from "react-icons/gr";
 
 export default [
   {
@@ -18,7 +18,7 @@ export default [
   },
   {
     id: 3,
-    icon: <IoAccessibility className="service-icon" />,
+    icon: <GrAccessibility className="service-icon" />,
     title: "accessibility",
     text: `Yes, this is VANITY FAIR; not a moral place certainly; nor a merry one, though very noisy. Look at the faces of the actors and buffoons when they come off from their business.`,
   },

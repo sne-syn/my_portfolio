@@ -13,7 +13,7 @@ export default [
       },
       {
         id: 2,
-        title: "Redux", '
+        title: "Redux",
       },
       {
         id: 3,
