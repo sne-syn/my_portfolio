@@ -85,7 +85,7 @@ export default [
     title: "Vinyl Collection",
     url: "https://competent-leavitt-7c62a2.netlify.app",
     github: "https://github.com/sne-syn/vinyl_collection",
-    description: "Trainig project with javascript iterator",
+    description: "Training project with javascript iterator",
     stack: [
       {
         id: 1,
