@@ -97,4 +97,22 @@ export default [
       }
     ],
   },
+
+  {
+    id: 6,
+    title: "Bicycle Express",
+    url: "https://upbeat-almeida-b0972b.netlify.app/index.html",
+    github: "https://github.com/sne-syn/BicycleExp",
+    description: "Bicycle Express is a website for local repair service that helps to get the right bike for customers needs or repair it.",
+    stack: [
+      {
+        id: 1,
+        title: "HTML, CSS",
+      },
+      {
+        id: 2,
+        title: "Bootstrap",
+      }
+    ],
+  },
 ];
