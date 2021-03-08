@@ -5,7 +5,7 @@ export default [
     github: "https://github.com/sne-syn/543355-six-cities-5",
     url: "https://amazing-shaw-0949ff.netlify.app",
     description:
-      "Rental service with React.js, comments and pin-map functionality",
+      "6-Cities is a modern service for travelers. You can get an up-to-date list of rental offers in one of six popular cities. Sorting objects and a detailed description of each of them will help you quickly choose the best housing option. Authorized users can leave a review and add an offer to their favorites.",
     stack: [
       {
         id: 1,
@@ -30,7 +30,7 @@ export default [
     title: "Cinemaddict",
     url: "https://practical-perlman-7d8c03.netlify.app/",
     github: "https://github.com/sne-syn/543355-cinemaddict-11",
-    description: "Movie collect application",
+    description: "Service for fans of big movies. Detailed information about cinemas' news, the ability to choose and create your list of films to watch, discussion of films, and much more.",
     stack: [
       {
         id: 1,
@@ -47,7 +47,7 @@ export default [
     title: "Keksobooking",
     url: "https://compassionate-johnson-0a70e7.netlify.app",
     github: "https://github.com/sne-syn/543355-keksobooking-18",
-    description: "Rental service with map, form, etc.",
+    description: "Service for posting ads for renting real estate in Tokyo. Users share information about their property, post photos, indicate the address by moving the mark on the city map. Also, you can look at the ads posted by other users.",
     stack: [
       {
         id: 1,
