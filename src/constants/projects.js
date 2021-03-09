@@ -61,10 +61,10 @@ export default [
   },
   {
     id: 4,
-    title: "Elearning platform",
+    title: "Foodlog",
     url: "https://ruby-training-project.herokuapp.com",
-    github: "https://github.com/sne-syn/ruby-project",
-    description: "Elearning platform",
+    github: "https://github.com/sne-syn/foodlog-ruby",
+    description: "A beginner foodlog project to start learning Ruby on Rails framework",
     stack: [
       {
         id: 1,
