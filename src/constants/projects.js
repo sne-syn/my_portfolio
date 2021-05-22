@@ -97,7 +97,6 @@ export default [
       }
     ],
   },
-
   {
     id: 6,
     title: "Bicycle Express",
@@ -112,6 +111,27 @@ export default [
       {
         id: 2,
         title: "Bootstrap",
+      }
+    ],
+  },
+  {
+    id: 7,
+    title: "The Guardian",
+    url: "https://peaceful-brahmagupta-60992c.netlify.app",
+    github: "https://github.com/sne-syn/net-cms-gatsby",
+    description: "A simple one-page JAMstack project with Gatsby.js, NetlifyCMS and TailwindCSS",
+    stack: [
+      {
+        id: 1,
+        title: "HTML, TailwindCSS",
+      },
+      {
+        id: 2,
+        title: "Gatsby.js",
+      },
+      {
+        id: 3,
+        title: "NetlifyCMS",
       }
     ],
   },
